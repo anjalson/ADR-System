@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding-top: 75px;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: blue;
+}
+.register{
+    border: 1px solid blue;
+    margin: 0px auto;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 30%;
+}
+.register .header {
+    margin: 5px auto 0px;
+    color: white;
+    background:blue;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+} 
+.register .form-control{
+    margin-top: 10px;
+    width: 100%;
+    padding: 2px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.hero-image img{
+    background:url("images//person1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 45vh;
+}
+#consult {
+    border: 1px solid blue;
+    background: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 50%;
+}
+@media (max-width: 479px){
+    footer{
+        text-align: center;
+    }
+}
+
